@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    size: 100%;
+
+  }
+.container {
+    padding: 20px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220727/pngtree-background-blue-simple-image_1439577.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+  
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: #fff; 
+  }
+  
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+.nav_ul {
+    list-style: none;
+    display: flex;
+  }
+  
+.nav_ul_li {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #fff; 
+  }
+  
+
+.button {
+      color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.about {
+    margin: 20px 0;
+  }
+  
+  
+.about_info {
+    text-align: center;
+  }
+  
+.about_hello {
+    font-size:25px;
+    font-weight: bold;
+  }
+  
+.about_webdeveloper {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+.about_text {
+    line-height: 1.;5;
+
+  }
+  
+  
+  .about_buttons .button {
+    color: #fff; 
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about_social_icon img {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+  }
